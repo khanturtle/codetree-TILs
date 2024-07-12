@@ -7,6 +7,6 @@ public class Main {
         a=sum;
         b=sum;
         c=sum;
-        printf("%d %d %d",a,b,c);
+        System.out.printf("%d %d %d",a,b,c);
     }
 }
