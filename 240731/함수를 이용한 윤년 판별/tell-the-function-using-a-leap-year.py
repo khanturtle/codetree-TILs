@@ -7,7 +7,7 @@ def is_year(n):
 
 n=int(input())
 
-if(is_year):
+if(is_year(n)):
     print('true')
 else:
     print('false')
