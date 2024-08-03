@@ -7,7 +7,7 @@ def is_exist(m,d):
             if(d<=30):
                 return True
         else:
-            if(d<=30):
+            if(d<=31):
                 return True
     return False
 
