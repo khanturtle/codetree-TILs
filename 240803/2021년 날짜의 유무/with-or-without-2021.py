@@ -3,11 +3,8 @@ def is_exist(m,d):
         if(m==2):
             if(d<=28):
                 return True
-        elif(m==7):
-            if(d<=31):
-                return True
-        elif(m%2==0):
-            if(d<=31):
+        elif(m==4 or m==6 or m==9 or m==11):
+            if(d<=30):
                 return True
         else:
             if(d<=30):
