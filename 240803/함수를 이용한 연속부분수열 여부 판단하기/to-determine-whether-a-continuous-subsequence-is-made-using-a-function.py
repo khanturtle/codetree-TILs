@@ -1,6 +1,6 @@
 def in_list(a_list,b_list):
     flag = 0
-    for i in range(len(a_list)-len(b_list)):
+    for i in range(len(a_list)-len(b_list)+1):
         for j in range(len(b_list)):
             if(a_list[i+j]==b_list[j]):
                 flag = 1
