@@ -50,7 +50,7 @@ if(yoon_year(y)):
     else:
         print(-1)
 else:
-    if(is_exist(m,c)):
+    if(is_exist(m,d)):
         print(season(m))
     else:
         print(-1)
