@@ -6,13 +6,9 @@ arr.sort()
 arr2.sort()
 
 def arr_compare(arr,arr2):
-    arrlen=0
-    if(len(arr)>=len(arr2)):
-        arrlen=len(arr)
-    else:
-        arrlen=len(arr2)
-
-    for i in range(arrlen):
+    if(len(arr)!=len(arr2)):
+        return False
+    for i in range(len(arr)):
         if(arr[i]!=arr2[i]):
             return False
     return True
