@@ -1,9 +1,3 @@
-class day_info:
-    def __init__(self,day,yoil,weather):
-        self.day=day
-        self.yoil=yoil
-        self.weather=weather
-
 n= int(input())
 days=[
     tuple(input().split())
